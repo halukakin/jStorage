@@ -60,7 +60,7 @@ Gets remaining TTL (in milliseconds) for a key or 0 if not TTL has been set.
 $.jStorage.flush()
 ```
 
-Clears the cache.
+Clears the local storage.
 
 ### index()
 
@@ -172,7 +172,7 @@ jStorage supports the following features:
 Current availability: jStorage supports all major browsers - Internet Explorer 6+, Firefox 2+,
 Safari 4+, Chrome 4+, Opera 10.50+
 
-If the browser doesn't support data caching, then no exceptions are raised - jStorage can still
+If the browser doesn't support local storage, then no exceptions are raised - jStorage can still
 be used by the script but nothing is actually stored.
 
 ## Tests
